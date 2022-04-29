@@ -1,0 +1,27 @@
+{
+  "name": "portal-server",
+  "version": "1.0.0",
+  "description": "Server component of client-server-example project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node --trace-warnings --trace-uncaught --async-stack-traces index.js",
+    "build": "babel --ignore dist,lectures,public,node_modules -d dist ../server -s"
+  },
+  "author": "Phillip Schmidt <pschmidt@truecoders.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "babel-node": "0.0.1-security",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16"
+  }
+}

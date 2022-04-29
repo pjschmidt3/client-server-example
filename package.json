@@ -1,0 +1,16 @@
+{
+  "name": "client-server-example",
+  "version": "1.0.0",
+  "description": "Basic MERN client/server example",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjschmidt3/client-server-example.git"
+  },
+  "author": "Phillip Schmidt <pschmidt@truecoders.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjschmidt3/client-server-example/issues"
+  },
+  "homepage": "https://github.com/pjschmidt3/client-server-example#readme"
+}
